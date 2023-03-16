@@ -15,7 +15,7 @@ while contador < registro:
     print(f"---------------fruta  {contador+1}-----------------")
     fruta["nombre"] = input(f"Ingrese el nombre de la fruta      => ")
     fruta["color"]  = input(f"Ingrese el color de la fruta       => ")
-    fruta["precio"] = int(input(f"Ingrese el nombre de la fruta      => "))
+    fruta["precio"] = int(input(f"Ingrese el precio de la fruta      => "))
     print()
     contador+=1
     frutas.append(fruta)
